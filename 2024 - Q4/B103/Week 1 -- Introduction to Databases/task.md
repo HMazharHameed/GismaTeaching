@@ -4,7 +4,3 @@
 
 **Objective:** Understand the fundamental differences between file systems and database systems and why databases are generally preferred for managing large datasets.
 
-**Instructions:**
-1. Research the differences between file systems and database systems.
-2. Create a comparison report in a text file.
-3. Upload your completed report to this folder.
