@@ -44,6 +44,3 @@ You are provided with a **Course Registration** table that contains the followin
 
 ---
 
-### Submission Instructions
-- Provide a new table structure for each step of normalization (1NF, 2NF, 3NF, and BCNF).
-- Submit your solutions by listing the decomposed tables for each normal form.
