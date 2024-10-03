@@ -54,14 +54,25 @@
 
 ---
 
-## Task 6: Interface Implementation - Comparable Interface
-**Objective**: Implement interfaces to compare `Person` objects.
+## Task 6: Abstract Classes - Create an Abstract Person
+**Objective**: Understand how abstract classes work in the context of the `Person` class.
 
-- Make the `Person` class implement the `Comparable<Person>` interface.
-- Implement the `compareTo()` method to compare persons based on their age.
-- Write a program to:
-  - Create a list of `Person` objects with different ages.
-  - Sort the list using `Collections.sort()`.
-  - Print the sorted list of persons by age.
+- Convert the `Person` class into an abstract class.
+- Add an abstract method `getOccupation()` that must be implemented by all subclasses to define the person’s occupation.
+- In the `Student` and `Employee` subclasses:
+  - Implement the `getOccupation()` method.
+  - For `Student`, return the string `"Student"`.
+  - For `Employee`, return the string `"Employee"`.
+- Modify `displayInfo()` in both subclasses to display the person’s occupation along with other details.
 
 ---
+
+## Task 7: Interface Implementation - Make Persons Comparable
+**Objective**: Implement interfaces to compare `Person` objects based on their attributes.
+
+- Make the `Person` class implement the `Comparable<Person>` interface.
+- Implement the `compareTo()` method to compare persons based on their `age` attribute.
+- Modify the main program to:
+  - Create a list of `Student` and `Employee` objects with different ages.
+  - Sort the list using `Collections.sort()`.
+  - Display the sorted list of persons.
