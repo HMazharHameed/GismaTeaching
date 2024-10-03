@@ -1,4 +1,4 @@
-# OOP Tasks: Person Class
+# OOP Tasks
 
 ## Task 1: Define a Class with Public and Private Access
 **Objective**: Create a `Person` class with private attributes and public methods to access them.
