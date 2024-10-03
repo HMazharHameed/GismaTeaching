@@ -19,7 +19,7 @@ Given two integers `num1` and `num2`, return the sum of the two integers.
 
 
 
-# (2) Reverse a String
+## (2) Reverse a String
 
 ## Problem Statement
 
