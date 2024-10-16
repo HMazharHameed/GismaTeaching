@@ -1,9 +1,9 @@
 ## Hands-on Labs
 
-### Task 1: Set Up Your Java Environment
+### Set Up Your Java Environment
 Ensure that you have installed Java and an Integrated Development Environment (IDE), such as Eclipse or IntelliJ IDEA. Write and run a simple Java program that prints "Hello, World!" to verify your setup.
 
-### Basic Java Syntax Practice
+### Java Syntax Practice
 
 1. **Basic Input and Output:**
    - **Question:** Write a Java program that takes the user's name as input and prints "Hello, [Name]!"
