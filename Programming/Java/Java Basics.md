@@ -40,7 +40,3 @@ Ensure that you have installed Java and an Integrated Development Environment (I
 9. **Fibonacci Series:**
    - **Question:** Write a Java program to generate the first N numbers in the Fibonacci sequence.
    - **Concepts:** Loops, variables.
-
-10. **Sum of Digits:**
-   - **Question:** Write a Java program that takes a number as input and prints the sum of its digits.
-   - **Concepts:** Loops, arithmetic operations.
