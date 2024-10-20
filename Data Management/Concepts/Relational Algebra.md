@@ -9,9 +9,9 @@ Understand how to apply relational algebra operations to extract and manipulate 
 ## Scenario: University Database
 You are provided with the following tables from a university database:
 
-- **Students** (`StudentID`, `FirstName`, `LastName`, `Major`)
-- **Courses** (`CourseID`, `CourseName`, `Credits`)
-- **Enrollments** (`StudentID`, `CourseID`, `Grade`)
+- **STUDENTS** (`StudentID`, `FirstName`, `LastName`, `Major`)
+- **COURSES** (`CourseID`, `CourseName`, `Credits`)
+- **ENROLLMENTS** (`StudentID`, `CourseID`, `Grade`)
 
 Using these tables, write relational algebra queries to answer the following questions:
 
@@ -28,7 +28,7 @@ Using these tables, write relational algebra queries to answer the following que
 
 ### Part 2: Intermediate Queries
 3. **Join**: Find the names of all students enrolled in the "Database Systems" course.
-   - *Hint*: Use a natural join (⨝) between the `Enrollments` and `Courses` tables.
+   - *Hint*: Use a natural join (⨝) between the `ENROLLMENTS` and `COURSES` tables.
 
 4. **Set Operations**: Retrieve the list of students who are enrolled in courses but have not received a grade yet.
    - *Hint*: Use set difference (-).
@@ -37,5 +37,5 @@ Using these tables, write relational algebra queries to answer the following que
 
 ### Part 3: Advanced Queries
 5. **Aggregation**: Find the total number of credits each student is enrolled in.
-   - *Hint*: Combine the `Enrollments` and `Courses` tables using a join and perform aggregation.
+   - *Hint*: Combine the `ENROLLMENTS` and `COURSES` tables using a join and perform aggregation.
 
