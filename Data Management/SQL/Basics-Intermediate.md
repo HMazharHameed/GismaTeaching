@@ -88,3 +88,16 @@ Write a SQL query to count how many people live in each state. The result should
 ## Task 5: Find People Living in the Same City
 
 Write a SQL query to list the `firstName` and `lastName` of people who share the same city as at least one other person. The result should not show any duplicate rows for the same city.
+
+## Task 6: Calculate Average Age of People
+
+Write a SQL query to calculate the average age of all people listed in the `Person` table. If there are no people in the table, return `NULL` as the average.
+
+
+## Task 7: Count People by Initial Letter of Last Name
+
+Write a SQL query that counts how many people have last names starting with each letter.
+
+## Task 8: Calculate the Percentage of Residents per City
+
+Write a SQL query that calculates the percentage of people residing in each city relative to the total number of people in the `Address` table.
