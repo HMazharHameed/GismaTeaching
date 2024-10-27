@@ -73,3 +73,6 @@ If there is no corresponding address for a `personId` in the `Address` table, th
 
 
 
+## Task : List All Cities with More Than One Resident
+
+Write a SQL query to find all cities in the `Address` table that have more than one resident. Your query should return only the city names, without duplicates.
