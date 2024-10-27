@@ -71,21 +71,5 @@ If there is no corresponding address for a `personId` in the `Address` table, th
 - `personId` 1 does not have an address entry, so `city` and `state` are `NULL`.
 - `personId` 2 has an address entry in the `Address` table, so `city` and `state` values are returned accordingly.
 
-## Solution
-
-The solution involves a LEFT JOIN between the `Person` and `Address` tables, allowing all entries from the `Person` table to be included even if there is no matching entry in the `Address` table.
-
-**SQL Query:**
-
-```sql
-SELECT p.firstName, p.lastName, a.city, a.state
-FROM Person p
-LEFT JOIN Address a ON p.personId = a.personId;
-```
-
-### Explanation
-
-- The `LEFT JOIN` ensures all persons from the `Person` table are included in the output.
-- If an address does not exist for a `personId`, the `city` and `state` fields will display `NULL`.
 
 
