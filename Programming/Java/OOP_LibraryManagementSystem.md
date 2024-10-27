@@ -7,13 +7,13 @@ The system will manage books, members, and the borrowing/returning of books.
 This project combines multiple OOP concepts to create a real-world, interactive example.
 
 ## Objective
-- Understand and apply basic OOP principles such as classes, objects, encapsulation, and methods.
+- Understand and apply basic OOP principles, such as classes, objects, encapsulation, and methods.
 - Practice using constructors, getters, setters, and composition to model relationships between classes.
 - Implement a small project with real-world relevance, showcasing the interactions between different objects.
 
 ## Project Structure
 To create the Library Management System, follow the class structures outlined below. 
-Some code has been implemented for demonstration, and you'll be expected to complete the remaining sections.
+
 
 ### 1. Class: `Book`
 **Purpose**: Represents a book in the library.
@@ -55,18 +55,8 @@ Some code has been implemented for demonstration, and you'll be expected to comp
 ### 4. Class: `LibraryTest` (Main Program)
 **Purpose**: Simulate library operations by adding books, registering members, borrowing/returning books, and displaying library status.
 
-**Your Task**:
-- Initialize a `Library` object and add at least two books and two members.
-- Use the methods provided to:
-  - Borrow books for members and display the library status.
-  - Return books and display the updated status.
 
 ## Task Summary
-Complete the following tasks in the project:
-
-1. **Implement Missing Methods**: Finish implementing the `borrowBook`, `returnBook`, and `displayStatus` methods in the `Library` class, as well as methods in `Book` and `Member` classes.
-2. **Simulate Library Operations**: Test the Library Management System by creating a `LibraryTest` class that simulates adding, borrowing, returning books, and viewing library status.
-3. **Add Error Handling**: Handle cases where a book isn’t available for borrowing or when a book is returned but wasn’t borrowed.
 
 ## Suggested Approach
 1. **Step-by-Step Implementation**:
