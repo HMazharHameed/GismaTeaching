@@ -56,8 +56,6 @@ To create the Library Management System, follow the class structures outlined be
 **Purpose**: Simulate library operations by adding books, registering members, borrowing/returning books, and displaying library status.
 
 
-## Task Summary
-
 ## Suggested Approach
 1. **Step-by-Step Implementation**:
    - Start by creating each class with the given fields and methods.
