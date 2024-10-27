@@ -5,7 +5,7 @@ Welcome to SQL Practice! This file contains a series of tasks designed to help y
 ---
 
 
-# SQL Task: Retrieve Personal Information with Address
+## SQL Task: Retrieve Personal Information with Address
 
 This task involves retrieving personal information along with addresses from two tables: `Person` and `Address`. 
 The goal is to list each person's first name, last name, city, and state. If the address information is missing 
@@ -73,6 +73,6 @@ If there is no corresponding address for a `personId` in the `Address` table, th
 
 
 
-# Task : List All Cities with More Than One Resident
+## Task 2: List All Cities with More Than One Resident
 
 Write a SQL query to find all cities in the `Address` table that have more than one resident. Your query should return only the city names, without duplicates.
