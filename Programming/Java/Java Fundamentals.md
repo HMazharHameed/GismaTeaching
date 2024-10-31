@@ -1,5 +1,5 @@
 
-# Java Practice Tasks
+# Java Practice Tasks (LeetCode)
 
 ## (1) Sum of Two Integers
 
