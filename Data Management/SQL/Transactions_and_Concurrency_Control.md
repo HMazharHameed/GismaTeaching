@@ -3,7 +3,7 @@
 
 These tasks use real-world scenarios to help you practice transactions and concurrency control in SQL. 
 
-| Task | Link and Further Information 
+| Task | Link and Further Information |
 |------|-------------------------------|
 | **1. Bank Transfer Simulation with Error Handling**: You’re working with two tables, `Accounts` and `Transactions`. Write a transaction to simulate a bank transfer from one account to another. Add a deliberate error midway (e.g., dividing by zero or referencing a nonexistent account) to see if the transaction rolls back correctly.|
 
