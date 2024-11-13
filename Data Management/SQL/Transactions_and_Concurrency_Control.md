@@ -3,9 +3,14 @@
 
 These tasks use real-world scenarios to help you practice transactions and concurrency control in SQL. 
 
+**Bank Transfer with Insufficient Balance Check**:  
+Simulate a bank transfer between two accounts in the `Accounts` table. The transaction should debit `account_id = 1` by 100 units and credit `account_id = 2` by 100 units, but only if `account_id = 1` has a balance greater than or equal to 100. Use a transaction with conditional `ROLLBACK` to ensure that if the balance is insufficient, the transfer doesn’t proceed.
 
-**1. Bank Transfer Simulation**: You’re working with two tables, `Accounts` and `Transactions`. Write a transaction to simulate a bank transfer from one account to another. Add a deliberate error midway (e.g., dividing by zero or referencing a nonexistent account) to see if the transaction rolls back correctly.
-
-**2. Exploring Atomicity and Consistency with Multi-Step Orders**: Consider a table `Orders` for an e-commerce site. Write a transaction to create an order that deducts item quantities from `Inventory`, records the sale in `Sales`, and updates the `Order_History`. 
-
-**3. Experimenting with Isolation Levels**: Using `BEGIN TRANSACTION`, `COMMIT`, and `ROLLBACK`, set up two concurrent transactions on an `Inventory` table. Use different isolation levels to observe effects like dirty reads or phantom reads. 
+**Steps**:
+1. Begin a transaction.
+2. Retrieve the balance for `account_id = 1` and check if it is greater than or equal to 100.
+3. If the balance is sufficient:
+   - Deduct 100 units from `account_id = 1`.
+   - Add 100 units to `account_id = 2`.
+   - Commit the transaction.
+4. If the balance is insufficient, `ROLLBACK` the transaction to cancel any changes.
