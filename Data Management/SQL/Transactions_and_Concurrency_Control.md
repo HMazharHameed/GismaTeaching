@@ -16,9 +16,7 @@ Simulate a bank transfer between two accounts in the `Accounts` table. The trans
 4. If the balance is insufficient, `ROLLBACK` the transaction to cancel any changes.
 
 ## Bank Transaction Concurrency Control Task
-
-## Scenario
-Two customers attempt to withdraw 50 units from the same bank account (`account_id = 1`) at the same time. To prevent inconsistencies, you’ll use transactions and locks to control concurrency and ensure data accuracy.
+Two customers attempt to withdraw 50 units from the same bank account (`account_id = 1`) at the same time. To prevent inconsistencies, you will use transactions and locks to control concurrency and ensure data accuracy.
 
 ## Instructions
 
@@ -26,7 +24,7 @@ Two customers attempt to withdraw 50 units from the same bank account (`account_
 Create an `Accounts` table with a starting balance for `account_id = 1`.
 
 ### Step 2: Transaction A - Withdraw 50 Units
-This transaction attempts to withdraw 50 units from `account_id = 1`. It uses `FOR UPDATE` to lock the row, preventing other transactions from modifying it concurrently.
+This transaction attempts to withdraw 50 units from `account_id = 1`. It uses `FOR UPDATE` to lock the row, preventing other transactions from modifying it concurrently. 
 
 ### Step 3: Transaction B - Concurrent Withdrawal of 50 Units
 At the same time, Transaction B also tries to withdraw 50 units from `account_id = 1`. This transaction will wait if Transaction A has locked the row.
