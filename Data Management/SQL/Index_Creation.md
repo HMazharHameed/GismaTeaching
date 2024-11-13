@@ -1,5 +1,5 @@
 
-# Hands-on Lab: Index Creation and Performance with Large Datasets
+# Index Creation and Performance with Large Datasets
 
 This task will help you understand the importance of indexing in handling large datasets by observing query performance on a table with a large number of rows.
 
