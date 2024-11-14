@@ -1,7 +1,7 @@
 
 # Java Exception Handling Practice Tasks
 
-Here is a list of tasks to deepen your understanding of **exception handling** in Java:
+Here is a list of tasks to deepen your understanding of **exception handling** in Java.
 
 ## Task 1: Basic Exception Handling
 - **Objective**: Understand the syntax and flow of `try`, `catch`, and `finally` blocks.
