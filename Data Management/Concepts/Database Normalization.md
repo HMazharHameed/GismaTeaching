@@ -11,7 +11,7 @@ Learn how to apply the first three normal forms (1NF, 2NF, and 3NF) and BCNF to 
 ## Scenario: University Course Registration System
 You are provided with a **Course Registration** table that contains the following attributes:
 
-| StudentID | CourseID  | StudentName | | CourseName | InstructorName | InstructorOffice | CourseTime |
+| StudentID | CourseID  | StudentName | CourseName | InstructorName | InstructorOffice | CourseTime |
 |-----------| -------------| -------------|----------|------------|----------------|------------------|------------|
 | 001       | CS101  |John Doe| Database   | Prof. Smith    | Room 202         | 10:00 AM   |
 | 001       | CS102  |John Doe | Algorithms | Prof. Brown    | Room 204         | 11:00 AM   |
