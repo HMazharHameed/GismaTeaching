@@ -12,11 +12,11 @@ Learn how to apply the first three normal forms (1NF, 2NF, and 3NF) and BCNF to 
 You are provided with a **Course Registration** table that contains the following attributes:
 
 | StudentID | CourseID  | StudentName | CourseName | InstructorName | InstructorOffice | CourseTime |
-|-----------| -------------| -------------|----------|------------|----------------|------------------|------------|
-| 001       | CS101  |John Doe| Database   | Prof. Smith    | Room 202         | 10:00 AM   |
-| 001       | CS102  |John Doe | Algorithms | Prof. Brown    | Room 204         | 11:00 AM   |
-| 002       | CS101 |Jane Smith | Database   | Prof. Smith    | Room 202         | 10:00 AM   |
-| 002       | CS103  |Jane Smith | Networking | Prof. Davis    | Room 205         | 12:00 PM   |
+|-----------| ----------|-----------  |----------  |------------    |----------------  |------------|
+| 001       | CS101     |John Doe     | Database   | Prof. Smith    | Room 202         | 10:00 AM   |
+| 001       | CS102     |John Doe     | Algorithms | Prof. Brown    | Room 204         | 11:00 AM   |
+| 002       | CS101     |Jane Smith   | Database   | Prof. Smith    | Room 202         | 10:00 AM   |
+| 002       | CS103     |Jane Smith   | Networking | Prof. Davis    | Room 205         | 12:00 PM   |
 
 ---
 
