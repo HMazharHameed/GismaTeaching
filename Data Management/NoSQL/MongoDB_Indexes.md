@@ -2,7 +2,7 @@
 
 
 ##  Objective
-This assignment will test your understanding of indexing strategies, query performance optimization.
+This assignment will test your understanding of indexing strategies and query performance optimization.
 
 ---
 
