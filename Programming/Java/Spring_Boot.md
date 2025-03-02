@@ -1,12 +1,12 @@
 #  Task: Create a Simple REST API with Spring Boot  
 
 ##  Objective  
-Build a basic **Spring Boot REST API** that returns a simple message when accessed.  
+Build a basic Spring Boot REST API that returns a simple message when accessed.  
 
 ##  Instructions  
 
-1. **Create a Controller Class**  
-   - Inside `src/main/java/com/example/demo/`, create a new file **`HelloController.java`**.  
+1. Create a Controller Class  
+   - Inside `src/main/java/com/example/demo/`, create a new file `HelloController.java`.  
    - Example Code:  
 
    ```java
@@ -26,11 +26,11 @@ Build a basic **Spring Boot REST API** that returns a simple message when access
        }
    }
 ```
-##  Run the Spring Boot Application  
+2. Run the Spring Boot Application  
 - Start the application.  
 
-## Test the API  
-1. Open a browser or Postman and visit:  
+3. Test the API : Open a browser or Postman and visit:  
 
-   ```bash
+```bash
    http://localhost:8080/api/hello
+```
