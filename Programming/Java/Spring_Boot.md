@@ -25,7 +25,7 @@ Build a basic Spring Boot REST API that returns a simple message when accessed.
            return "Hello, Spring Boot!";
        }
    }
-```
+
 2. Run the Spring Boot Application  
 - Start the application.  
 
@@ -33,4 +33,3 @@ Build a basic Spring Boot REST API that returns a simple message when accessed.
 
 ```bash
    http://localhost:8080/api/hello
-```
