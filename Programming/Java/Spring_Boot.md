@@ -27,7 +27,6 @@ Build a basic Spring Boot REST API that returns a simple message when accessed.
    }
 
 2. Run the Spring Boot Application  
-- Start the application.  
 
 3. Test the API : Open a browser or Postman and visit:  
 
