@@ -4,7 +4,7 @@ Welcome to the GismaTeaching GitHub repository. This public repository is design
 
 ## About
 
-This repository contains educational materials, including tasks, exercises, and example solutions, tailored to the GISMA curriculum. The content is intended to provide practical, hands-on experience with the topics covered in our courses. 
+This repository contains educational materials, including tasks, exercises, and example solutions, tailored to the Gisma curriculum. The content is intended to provide practical, hands-on experience with the topics covered in our courses. 
 
 Feel free to explore the repository and use the materials as needed for your coursework. For any questions or further information, please open an issue in this repository.
 
