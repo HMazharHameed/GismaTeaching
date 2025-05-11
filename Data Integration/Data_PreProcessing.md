@@ -46,9 +46,15 @@ The dataset contains the following issues:
 
 ---
 
-### Step 4: Save and Review
+### Step 4: Save in Multiple Formats and Review
 
-- Save the cleaned DataFrame as a CSV file.
-- Reload and show 10 cleaned entries for verification.
+- Save the cleaned DataFrame in:
+  - CSV 
+  - Parquet
+  - Avro 
+
+- Reload the datasets saved in **Parquet** and **Avro** format into new DataFrames.
+- Print the schema and show a few rows from each to confirm data structure and content.
+- Run a simple aggregation (e.g., average rating or count of feedbacks per day) on both reloaded formats to demonstrate successful storage and further usability.
 
 
