@@ -2,7 +2,7 @@
 
 ## Scenario
 
-You are working as a data engineer for a startup that collects customer feedback from multiple sources. You’ve been handed a messy dataset exported from their internal feedback system.
+You are working as a data engineer for a startup that collects customer feedback from multiple sources. You have been handed a messy dataset exported from their internal feedback system.
 
 Your goal is to clean and prepare this dataset so that the analytics team can build dashboards and sentiment analysis models.
 
@@ -48,7 +48,7 @@ The dataset contains the following issues:
 
 ### Step 4: Save and Review
 
-- Save the cleaned DataFrame to a Parquet file.
+- Save the cleaned DataFrame as a CSV file.
 - Reload and show 10 cleaned entries for verification.
 
 
