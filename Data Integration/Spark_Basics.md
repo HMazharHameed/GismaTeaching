@@ -4,7 +4,9 @@
 
 - Set up a Spark development environment using one of the following:
   - Databricks Community Edition (recommended for beginners)
+
   OR
+  
   - Local installation via PySpark in Jupyter Notebook or IntelliJ
 
 ## Task 1: Load Data into RDD
