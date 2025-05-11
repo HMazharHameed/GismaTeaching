@@ -32,7 +32,6 @@
 - Display the schema and first few records
 - Run SQL queries on the JSON data after registering it as a temporary view
 
----
 
 ## Task 4: Data Transformation with Spark SQL
 
