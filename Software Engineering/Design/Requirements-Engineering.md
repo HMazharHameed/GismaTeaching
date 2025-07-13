@@ -1,4 +1,4 @@
-## Task 2: Writing Effective Software Requirements
+## Task 1: Writing Effective Software Requirements
 
 **Description:**  
 You are given a short user story:  
