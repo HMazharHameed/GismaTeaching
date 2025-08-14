@@ -1,4 +1,4 @@
-## Task 1: Graph Traversal Challenge – DFS and BFS
+## Task 1: Graph Traversal – DFS and BFS
 
 **Problem Statement:**  
 You are given a graph represented as an adjacency list and a starting node.  
